@@ -1,0 +1,14 @@
+{
+  "name": "commitizen",
+  "description": "commitizen auto installer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "commitizen": "^4.2.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "word-wrap@<1.2.4": ">=1.2.4"
+    }
+  }
+}

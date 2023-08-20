@@ -1,0 +1,10 @@
+{
+  "name": "commitlint",
+  "description": "commitlint auto installer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2"
+  }
+}

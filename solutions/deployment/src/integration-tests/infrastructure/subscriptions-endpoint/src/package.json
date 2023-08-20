@@ -1,0 +1,20 @@
+{
+  "name": "fhir-subscriptions-test-endpoint",
+  "version": "1.0.0",
+  "description": "Simple endpoint used for FHIR Subscriptions integ tests",
+  "homepage": "https://github.com/aws-solutions/fhir-works-on-aws",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aws-solutions/fhir-works-on-aws.git"
+  },
+  "author": {
+    "name": "Amazon Web Services",
+    "email": "fhir-works-on-aws-dev@amazon.com",
+    "url": "https://aws.amazon.com/solutions"
+  },
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "scripts": {},
+  "devDependencies": {}
+}

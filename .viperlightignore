@@ -1,0 +1,74 @@
+# This file is used by Viperlight utility to override findings (false alarm)
+
+#Config excludes
+node_modules
+cdk.out
+common
+.tools
+.next
+build
+lib
+fwoa-utilities/javaHapiValidatorLambda/src/test/resources/
+
+#Third party file
+THIRD_PARTY_LICENSES$
+
+
+# NOTICE files
+.*/NOTICE
+INSTALL.md
+
+# Line excludes
+# False positive
+fwoa-core/interface/src/fhirConfig.ts:49
+solutions/deployment/scripts/provision-user.py:29
+solutions/deployment/scripts/provision-user.py:44
+solutions/smart-deployment/README.md:67
+solutions/smart-deployment/README.md:111
+fwoa-core/routing/src/router/validation/schemas/fhir.schema.v3.json:10255
+fwoa-core/routing/src/router/validation/schemas/fhir.schema.v3.json:10256
+fwoa-core/routing/src/router/validation/schemas/fhir.schema.v3.json:10260
+fwoa-core/routing/src/router/validation/schemas/fhir.schema.v3.json:10261
+fwoa-core/search-es/src/schema/compiledSearchParameters.4.0.1.json:6626
+fwoa-core/search-es/src/schema/compiledSearchParameters.4.0.1.json:6627
+fwoa-core/search-es/src/schema/compiledSearchParameters.4.0.1.json:6631
+fwoa-core/search-es/src/schema/compiledSearchParameters.3.0.1.json:4145
+fwoa-core/search-es/src/schema/compiledSearchParameters.3.0.1.json:4146
+fwoa-core/search-es/src/schema/compiledSearchParameters.3.0.1.json:4150
+fwoa-core/search-es/src/schema/searchMappingsBase.3.0.1.json:1340
+fwoa-core/search-es/src/schema/searchMappingsBase.4.0.1.json:1446
+
+# Team Email
+fwoa-core/interface/package.json:13
+fwoa-core/interface/openapi.yaml:7
+fwoa-core/routing/package.json:13
+fwoa-core/authz-smart/package.json:13
+fwoa-core/authz-rbac/package.json:13
+solutions/smart-deployment/package.json:13
+fwoa-core/persistence-ddb/package.json:13
+fwoa-core/search-es/package.json:13
+solutions/deployment/package.json:13
+solutions/deployment/src/integration-tests/infrastructure/subscriptions-endpoint/src/package.json:12
+fwoa-utilities/package.json:13
+# Dummy Email for tests
+fwoa-core/authz-smart/src/comboTest/testStubs.ts:56
+fwoa-core/authz-smart/src/smartAuthorizationHelper.test.ts:352
+fwoa-core/authz-smart/src/smartHandler.test.ts:90
+solutions/deployment/src/integration-tests/search.test.ts:386
+solutions/deployment/src/integration-tests/search.test.ts:416
+solutions/deployment/src/integration-tests/search.test.ts:432
+solutions/smart-deployment/src/integration-tests/search.test.ts:383
+solutions/smart-deployment/src/integration-tests/search.test.ts:413
+solutions/smart-deployment/src/integration-tests/search.test.ts:429
+fwoa-core/search-es/src/StreamSubscriptionMatcher/subscriptions.test.ts:43 
+fwoa-core/interface/src/InputExampleEncryptLoggerUtilities.json:18 
+fwoa-core/routing/src/router/middlewares/setLogger.test.ts:72
+fwoa-core/routing/src/router/middlewares/setLogger.test.ts:132
+fwoa-core/routing/src/router/middlewares/setLogger.test.ts:189
+fwoa-core/interface/src/inputExampleEncryptSelectedField.json:18
+#Email for maintenance mode
+README.md:5
+
+# PDF Implementation Guide
+FHIR Works on AWS Implementation Guide - 24-MAR-2023 - v6.0.0.pdf
+FHIR Works on AWS - Migration Tool User Guide.pdf

@@ -1,0 +1,10 @@
+{
+  "name": "rush-prettier",
+  "description": "rush-prettier  auto installer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3"
+  }
+}
